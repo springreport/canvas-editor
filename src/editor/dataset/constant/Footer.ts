@@ -5,5 +5,6 @@ export const defaultFooterOption: Readonly<Required<IFooter>> = {
   bottom: 30,
   maxHeightRadio: MaxHeightRatio.HALF,
   disabled: false,
-  editable: true
+  editable: true,
+  firstPage:false
 }

@@ -5,5 +5,6 @@ export const defaultHeaderOption: Readonly<Required<IHeader>> = {
   top: 30,
   maxHeightRadio: MaxHeightRatio.HALF,
   disabled: false,
-  editable: true
+  editable: true,
+  firstPage:false
 }

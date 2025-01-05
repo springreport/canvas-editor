@@ -123,6 +123,10 @@ export class Header {
   }
 
   public render(ctx: CanvasRenderingContext2D, pageNo: number) {
+    const {header:{firstPage}} = this.options;
+    if(firstPage && pageNo == 0){
+      return;
+    }
     ctx.globalAlpha = 1
     const innerWidth = this.draw.getInnerWidth()
     const maxHeight = this.getMaxHeight()

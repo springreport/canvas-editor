@@ -5,4 +5,5 @@ export interface IHeader {
   maxHeightRadio?: MaxHeightRatio
   disabled?: boolean
   editable?: boolean
+  firstPage?:boolean
 }
